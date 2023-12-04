@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAdmissionManagement", "StudentAdmissionManagement\StudentAdmissionManagement.csproj", "{DB0DF1F6-4C0D-4405-B084-72FAC050BA8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentAdmissionManagement", "StudentAdmissionManagement\StudentAdmissionManagement.csproj", "{DB0DF1F6-4C0D-4405-B084-72FAC050BA8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolAttendanceManagement", "SchoolAttendanceManagement\SchoolAttendanceManagement.csproj", "{6E704282-6053-4710-B4A4-5FCE6276D23E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolAttendanceManagement", "SchoolAttendanceManagement\SchoolAttendanceManagement.csproj", "{6E704282-6053-4710-B4A4-5FCE6276D23E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolAPIGateWay", "SchoolAPIGateWay\SchoolAPIGateWay.csproj", "{8634D96E-1A84-46A5-8D69-BADB658EB72B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6E704282-6053-4710-B4A4-5FCE6276D23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E704282-6053-4710-B4A4-5FCE6276D23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E704282-6053-4710-B4A4-5FCE6276D23E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8634D96E-1A84-46A5-8D69-BADB658EB72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8634D96E-1A84-46A5-8D69-BADB658EB72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8634D96E-1A84-46A5-8D69-BADB658EB72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8634D96E-1A84-46A5-8D69-BADB658EB72B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
