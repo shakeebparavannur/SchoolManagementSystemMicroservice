@@ -1,0 +1,31 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7057"
+  },
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/gateway/admission",
+      "UpstreamHttpMethod": [ "GET" ],
+      "DownstreamPathTemplate": "/api/StudentAdmission",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7161
+        }
+      ]
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/admission/{Id}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/StudentAdmission/{Id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7161
+        }
+      ]
+    }
+  ]
+}
